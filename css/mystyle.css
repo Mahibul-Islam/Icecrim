@@ -1,0 +1,266 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'sans-serif, Times New Roman', Times, serif;
+        position: relative;
+    }
+    
+    ul li {
+        list-style-type: none;
+    }
+    
+    div.main_container {
+        width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        display: block;
+        overflow-x: hidden;
+    }
+    
+    div.header {
+        height: 88vh;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    /* navber section */
+    
+    div.logo {
+        height: 72px;
+        width: 109px;
+    }
+    
+    nav.navbar .navbar-expand-lg {
+        width: 50px;
+    }
+    
+    .navbar {
+        padding: 0;
+        width: 100%;
+    }
+    
+    .navbar div.container-fluid {
+        box-sizing: border-box;
+        width: 103%;
+        padding: 0px 0px;
+        margin: 0px -12px;
+        background-color: rgb(237, 233, 233);
+        overflow: hidden;
+    }
+    
+    .navbar-nav .nav-item a.nav-link {
+        padding-left: 2.50rem;
+        padding-right: 2.50rem;
+        font-size: 1.50rem;
+        color: rgb(16, 15, 15);
+        text-align: center;
+    }
+    
+    .nav-item .nav-link:hover {
+        background-color: white;
+        border-bottom: 1px solid black;
+    }
+    
+    img#fixed_image {
+        position: absolute;
+        left: 450px;
+        top: 105px;
+        z-index: 10;
+    }
+    /* About section */
+    
+    .About_section {
+        background-color: rgb(240, 240, 240);
+        box-sizing: border-box;
+        height: 55vh;
+    }
+    
+    .About_section .col {
+        /* box-sizing: border-box; */
+        /* width: 375px; */
+        /* float: left; */
+        text-align: justify;
+        padding: 30px;
+        margin-top: 70px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .About_section .col h2 {
+        padding-bottom: 30px;
+    }
+    
+    .button {
+        display: inline-block;
+        padding: 10px 12px;
+        margin-left: 5px;
+        background-color: rgb(174, 191, 208);
+        border-radius: 20px;
+        text-decoration: none;
+        clear: both;
+        color: #0a0a0a;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        text-transform: capitalize;
+        box-shadow: 0 3px 0 0 #2e3332;
+    }
+    
+    .button:hover {
+        background-color: rgb(250, 105, 197);
+        color: white;
+        font-weight: bold;
+    }
+    
+    .About_section .col img {
+        padding: 15px;
+        margin-top: 40px;
+    }
+    
+    .About_section .col h4 {
+        font-family: Tahoma, sans-serif;
+        text-align: center;
+    }
+    
+    .About_section .col h4:hover {
+        border-bottom: 1px solid black;
+        color: rgb(85, 85, 255);
+        padding: 5px;
+        font-size: 1.40rem;
+    }
+    /* Blog section */
+    
+    div.blog-part {
+        background-color: #fbecd8;
+    }
+    
+    .row .details h2 {
+        margin-top: 100px;
+        margin-bottom: 40px;
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .row .details h2:hover {
+        color: rgb(249, 137, 175);
+        font-size: 3.10rem;
+    }
+    
+    .row .details p {
+        font-family: Geneva, Tahoma, sans-serif;
+        font-size: 1.40rem;
+        padding: 50px;
+    }
+    
+    .row .details .button-2 {
+        padding: 12px 25px;
+        border: 1px solid black;
+        font-size: 1.30rem;
+        border-radius: 50px;
+        font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: rgb(255, 188, 235);
+        box-shadow: 0 5px 0 0 rgb(118, 113, 116);
+    }
+    
+    .row .details .button-2:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    button.button-blog {
+        border: 1px solid #705755;
+        border-radius: 4px;
+        display: inline-block;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 55px;
+        padding: 5px 30px;
+    }
+    /* Contuct Section */
+    
+    .from-part {
+        background-image: url(../images/background-1939128_960_720.webp);
+    }
+    
+    .contuct_section {
+        background-color: rgb(240, 240, 240);
+        /* display: inline-block; */
+    }
+    
+    .row .contuct-part {
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    
+    .row .contuct-part p {
+        font-family: 'Times New Roman', serif;
+        font-size: 1.20rem;
+        margin-top: 50px;
+    }
+    
+    .from-part {
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        box-sizing: border-box;
+    }
+    
+    .from-part .col {
+        border: 3px solid white;
+        margin: 90px 60px;
+        padding: 32px;
+        font-family: system-ui, 'Arial Narrow', Arial, sans-serif;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    
+    .from-part .col h3 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .from-part .col ul {
+        margin-top: 18px;
+    }
+    
+    .hotel-booking ul li {
+        margin-top: 20px;
+    }
+    
+    .enquiry-form input,
+    textarea {
+        background-color: white;
+        width: 100%;
+        padding: 15px;
+        margin: 10px 0;
+    }
+    
+    .enquiry-form .small {
+        background-color: aqua;
+        border-radius: 5px;
+        font-size: 17px;
+        padding: 8px 16px;
+        margin-top: 10px;
+        border: none;
+    }
+    
+    .from-part h3:hover {
+        padding-bottom: 6px;
+        border-bottom: 2px solid rgb(251, 248, 248);
+    }
+    
+    .enquiry-form .small:hover {
+        background-color: pink;
+    }
+    /* Footer Section */
+    
+    .footer {
+        text-align: center;
+        padding: 3rem;
+        /* background-color: rgb(94, 255, 255); */
+        background-color: rgb(226, 226, 226);
+        ;
+    }

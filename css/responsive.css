@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    div.logo {
+        width: 100%;
+        background-color: rgb(110, 110, 255);
+    }
+    .row .carousel {
+        width: 100%;
+    }
+}
